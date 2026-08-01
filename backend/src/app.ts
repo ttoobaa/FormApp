@@ -19,7 +19,7 @@ connectDB().catch((error:any) => {
 app.use(helmet());
 
 app.use(cors({
-  origin: config.frontendUrl,
+  origin: [config.frontendUrl, 'https://form-formapp2.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,

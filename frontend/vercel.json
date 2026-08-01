@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://form-backend-indol.vercel.app/api/$1"
+    },
+    {
+      "source": "/uploads/(.*)",
+      "destination": "https://form-backend-indol.vercel.app/uploads/$1"
+    }
+  ]
+}

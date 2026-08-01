@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express';
-import type { ApiResponse } from '../types';
+import type { ApiResponse } from '../types/index.js';
 
 export function errorHandler(err: Error, _req: Request, res: Response, _next: NextFunction) {
   console.error('Error:', err);

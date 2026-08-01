@@ -1,6 +1,6 @@
-import app from './app';
-import { connectDB } from './db/connection';
-import { config } from './config';
+import app from './app.js';
+import { connectDB } from './db/connection.js';
+import { config } from './config/index.js';
 
 async function start() {
   try {

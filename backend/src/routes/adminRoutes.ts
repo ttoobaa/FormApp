@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { validateRequest } from '../middleware/validation';
-import { createFormSchema } from '../validators/form';
-import * as adminController from '../controllers/adminController';
+import { validateRequest } from '../middleware/validation.js';
+import { createFormSchema } from '../validators/form.js';
+import * as adminController from '../controllers/adminController.js';
 
 const router = Router();
 

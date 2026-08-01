@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { upload } from '../middleware/fileUpload';
-import type { ApiResponse } from '../types';
+import { upload } from '../middleware/fileUpload.js';
+import type { ApiResponse } from '../types/index.js';
 
 const router = Router();
 

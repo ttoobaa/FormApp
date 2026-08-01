@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import * as formService from '../services/formService';
-import type { ApiResponse } from '../types';
+import * as formService from '../services/formService.js';
+import type { ApiResponse } from '../types/index.js';
 
 export async function createForm(req: Request, res: Response) {
   try {

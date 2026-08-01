@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import type { FieldConfig } from '../types';
+import type { FieldConfig } from '../types/index.js';
 
 const fieldConfigSchema = new mongoose.Schema<FieldConfig>({
   field_key: { type: String, required: true },

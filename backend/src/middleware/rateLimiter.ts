@@ -1,6 +1,6 @@
 import rateLimit from 'express-rate-limit';
-import { config } from '../config';
-import type { ApiResponse } from '../types';
+import { config } from '../config/index.js';
+import type { ApiResponse } from '../types/index.js';
 
 export const publicFormLimiter = rateLimit({
   windowMs: config.rateLimit.windowMs,

@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import { validateRequest } from '../middleware/validation';
-import { submitFormSchema } from '../validators/submission';
-import { publicFormLimiter, submissionLimiter } from '../middleware/rateLimiter';
-import * as formController from '../controllers/formController';
+import { validateRequest } from '../middleware/validation.js';
+import { submitFormSchema } from '../validators/submission.js';
+import { publicFormLimiter, submissionLimiter } from '../middleware/rateLimiter.js';
+import * as formController from '../controllers/formController.js';
 
 const router = Router();
 

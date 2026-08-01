@@ -1,0 +1,12 @@
+[
+  { "name": "Pakistan", "dialCode": "+92" },
+  { "name": "India", "dialCode": "+91" },
+  { "name": "China", "dialCode": "+86" },
+  { "name": "Afghanistan", "dialCode": "+93" },
+  { "name": "Iran", "dialCode": "+98" },
+  { "name": "Nepal", "dialCode": "+977" },
+  { "name": "Bhutan", "dialCode": "+975" },
+  { "name": "Bangladesh", "dialCode": "+880" },
+  { "name": "Sri Lanka", "dialCode": "+94" },
+  { "name": "Tajikistan", "dialCode": "+992" }
+]
